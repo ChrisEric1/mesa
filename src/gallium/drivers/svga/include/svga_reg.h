@@ -35,7 +35,7 @@
 /*
  * PCI device IDs.
  */
-#define PCI_VENDOR_ID_VMWARE            0x15AD
+#define PCI_VENDOR_ID_VMWARE            0x1960
 #define PCI_DEVICE_ID_VMWARE_SVGA2      0x0405
 
 /*

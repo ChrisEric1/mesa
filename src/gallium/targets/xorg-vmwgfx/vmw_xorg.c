@@ -78,7 +78,7 @@ _X_EXPORT Bool vmw_xorg_pci_probe(DriverPtr driver,
  */
 
 static const struct pci_id_match vmw_xorg_device_match[] = {
-    {0x15ad, PCI_MATCH_ANY, PCI_MATCH_ANY, PCI_MATCH_ANY, 0, 0, 0},
+    {PCI_VENDOR_ID_VMWARE, PCI_MATCH_ANY, PCI_MATCH_ANY, PCI_MATCH_ANY, 0, 0, 0},
     {0, 0, 0, 0, 0, 0, 0},
 };
 
